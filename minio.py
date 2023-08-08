@@ -41,3 +41,13 @@ for file_name in os.listdir(download_dir):
             print(f"File {file_name} uploaded successfully.")
         else:
             print(f"Failed to upload file {file_name}. Response:", response.text)
+
+
+'''
+
+
+headers = {
+    "Authorization": "Basic " + base64.b64encode(f"{username}:{password}".encode()).decode(),
+}
+
+'''
